@@ -17,7 +17,7 @@ publicVariable "commandpointsblu1";
 WARCOM_blufor_ap = WARCOM_blufor_ap + _apreward;
 publicVariable "WARCOM_blufor_ap";
 
-//_opfreward = round(_apreward/2);
+_opfreward = round(_apreward/0.6);
 WARCOM_opfor_ap = WARCOM_opfor_ap - _opfreward;
 publicVariable "WARCOM_opfor_ap";
 
