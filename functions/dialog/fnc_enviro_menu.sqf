@@ -33,7 +33,7 @@ lbSetCurSel [2103, index_fast_travel_true];
 index_zeus_params_full = lbAdd [2104, localize "STR_DUWS_X_m4bqnyut"];
 index_zeus_params_blufor = lbAdd [2104, localize "STR_DUWS_X_nque25op"];
 index_zeus_params_none = lbAdd [2104, localize "STR_DUWS_X_3i1vcc0n"];
-lbSetCurSel [2104, index_zeus_params_blufor];
+lbSetCurSel [2104, index_zeus_params_full];
 
 // ENABLE STAMINA
 index_enable_stamina_true = lbAdd [2105, localize "STR_DUWS_X_vk37aebo"];
@@ -64,7 +64,7 @@ lbSetCurSel [2107, index_timemult_1];
 // ENABLE SIMPLE ZONES
 index_simpzones_false = lbAdd [2108, localize "STR_DUWS_X_x4zs3lsg"];
 index_simpzones_true = lbAdd [2108, localize "STR_DUWS_X_vk37aebo"];
-lbSetCurSel [2108, index_simpzones_false];
+lbSetCurSel [2108, index_simpzones_true];
 
 // ENABLE CIVILIANS
 index_civtype_none = lbAdd [2109, localize "STR_DUWS_X_d8he1qkh"];
