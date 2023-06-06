@@ -6,7 +6,7 @@
 Kill_MissionCancel = true;
 publicVariable "Kill_MissionCancel";
 
-sleep 300;   // 5 min
+sleep 30;   // 0.5 min
 
 if (Mission_available) exitWith {};
 Mission_available = true;

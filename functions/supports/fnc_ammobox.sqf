@@ -113,7 +113,7 @@ _smoke = "SmokeShellGreen" CreateVehicle (getpos _ammobox);
 // Put some crap in the ammobox
 [_ammobox,"blufor"] spawn fnc_fill_ammobox; 
 
-[[_ammobox,[localize "STR_DUWS_X_160jkc3a",fnc_duws_Arsenal,[], 0, false, false, "", "_this distance _target < 8"]],"addAction",true,true] call BIS_fnc_MP;
+// [[_ammobox,[localize "STR_DUWS_X_160jkc3a",fnc_duws_Arsenal,[], 0, false, false, "", "_this distance _target < 8"]],"addAction",true,true] call BIS_fnc_MP;
 [[_ammobox,[localize "STR_DUWS_X_gcidvhn3",fnc_AI_loadout_manager,[], 0, false, false, "", "_this distance _target < 8"]],"addAction",true,true] call BIS_fnc_MP;
 [[_ammobox,[localize "STR_DUWS_X_xfgokhbc",fnc_AI_rearm,[], 0, false, false, "", "_this distance _target < 8"]],"addAction",true,true] call BIS_fnc_MP;
 

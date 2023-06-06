@@ -240,6 +240,14 @@ zoneundercontrolblu = 0;publicVariable "zoneundercontrolblu";
 // CREATE THE ARRAYS FOR GAME MASTER and REQUEST PLAYERS
 game_master = ["player1"];publicVariable "game_master";
 
+Commander_Players = [
+	"player1",
+	"player3",
+	"player5",
+	"player7",
+	"player9"
+]; publicVariable "Commander_Players";
+
 Request_Players = [
 	"player1",
 	"player2",

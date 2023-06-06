@@ -18,8 +18,8 @@ WARCOM_blufor_ap = WARCOM_blufor_ap + _apreward;
 publicVariable "WARCOM_blufor_ap";
 
 //_opfreward = round(_apreward/2);
-//WARCOM_opfor_ap = WARCOM_opfor_ap - _opfreward;
-//publicVariable "WARCOM_opfor_ap";
+WARCOM_opfor_ap = WARCOM_opfor_ap - _opfreward;
+publicVariable "WARCOM_opfor_ap";
 
 [] spawn fnc_operative_mission_complete;
 

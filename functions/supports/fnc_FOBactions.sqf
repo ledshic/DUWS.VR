@@ -10,7 +10,7 @@ if ((vehiclevarname player) in Request_Players) then {
 	
 _fob addaction [localize "STR_DUWS_X_iggpsdqo",fnc_FOBmanager, "", 0, true, true, "", "_this == player"];
 	
-if (support_armory_available) then {
+// if (support_armory_available) then {
     _fob addaction [localize "STR_DUWS_X_160jkc3a",fnc_duws_Arsenal, "", 0, true, true, "", "_this == player"];
 };
 
@@ -19,6 +19,10 @@ if (support_halo_available) then {
 	if ((vehiclevarname player) in Request_Players) then {
 		_fob addAction [localize "STR_DUWS_X_u6btu73i", fnc_ghst_halo, [true,600,70], 0, true, true, "","_this == player"];
 	};	
+};
+
+if ((vehiclevarname player) in Commander_Players) then {
+    _fob addaction [localize "STR_DUWS_X_9eiwr3bt",{[] remoteExec ["fnc_rest_heal",2]}];
 };
 
 if ((vehiclevarname player) in game_master) then {
