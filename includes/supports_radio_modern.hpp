@@ -190,7 +190,7 @@ class CfgCommunicationMenu
         icon = "\a3\Ui_f\data\GUI\Cfg\CommunicationMenu\attack_ca.paa"; // Icon displayed permanently next to the command menu
         cursor = ""; // Custom cursor displayed when the item is selected
         enable = "1"; // Simple expression condition for enabling the item
-        removeAfterExpressionCall = 1; // 1 to remove the item after calling
+        removeAfterExpressionCall = 0; // 1 to remove the item after calling
     };
 
 };                             
