@@ -12,26 +12,26 @@ clearBackpackCargoGlobal _ammobox;
 
 switch (_side) do {
 	case "blufor": {
+		// {
+		// 	_ammobox addWeaponCargoGlobal [_x, 1];
+		// } forEach blufor_ammobox_weapons;
 		{
-			_ammobox addWeaponCargoGlobal [_x, 2];
-		} forEach blufor_ammobox_weapons;
-		{
-			_ammobox addMagazineCargoGlobal [_x, 2];
+			_ammobox addMagazineCargoGlobal [_x, 12];
 		} forEach blufor_ammobox_magazines;
 		{
-			_ammobox addItemCargoGlobal [_x, 2];
+			_ammobox addItemCargoGlobal [_x, 20];
 		} forEach blufor_ammobox_items;
 
 	};
 	case "opfor": {
 		{
-			_ammobox addWeaponCargoGlobal [_x, 2];
+			_ammobox addWeaponCargoGlobal [_x, 1];
 		} forEach opfor_ammobox_weapons;
 		{
-			_ammobox addMagazineCargoGlobal [_x, 2];
+			_ammobox addMagazineCargoGlobal [_x, 12];
 		} forEach opfor_ammobox_magazines;
 		{
-			_ammobox addItemCargoGlobal [_x, 2];
+			_ammobox addItemCargoGlobal [_x, 20];
 		} forEach opfor_ammobox_items;
 	};
 };
