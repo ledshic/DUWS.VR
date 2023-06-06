@@ -1,17 +1,17 @@
-OnLoadMission = "A procedurally generated campaign where you execute missions and gain resources to help BLUFOR capture the enemy zones. Play the way you want: be a SpecOps, a Squad Leader or control a small army, the choice is yours.";
-onLoadName = "DUWS_X v3.05";
+OnLoadMission = "一个程序生成的战役，您可以执行任务并获得资源来帮助BLUFOR占领敌方区域。以您喜欢的方式进行游戏：成为特种部队、小队长或控制一支小军队，选择权在您手中。";
+onLoadName = "DUWS_EX";
 dev = "dev";
-author = "Killa Tomata - orig by Kibot/DUWS-R Team";
-overviewText = "A procedurally generated campaign where you execute missions and gain resources to help BLUFOR capture the enemy zones. Play the way you want: be a SpecOps, a Squad Leader or control a small army, the choice is yours.";
-overviewPicture = "DUWS_X.jpg";
-LoadScreen = "DUWS_X.jpg";
+author = "coco - orig by Killa Tomata";
+overviewText = "一个程序生成的战役，您可以执行任务并获得资源来帮助BLUFOR占领敌方区域。以您喜欢的方式进行游戏：成为特种部队、小队长或控制一支小军队，选择权在您手中。";
+overviewPicture = "DUWS.jpeg";
+LoadScreen = "DUWS.jpeg";
 
 //--------------------------------------------------------------
 //------------------------AIS INJURY----------------------------
 //--------------------------------------------------------------
 respawn = 3;
 respawnDialog = 1;
-respawndelay = 10;
+respawndelay = 120;
 disabledAI = 1;
 enableDebugConsole = 1;
 allowFunctionsLog = 1;
@@ -30,6 +30,7 @@ class CfgFunctions
 	#include "AIS\cfgFunctions.hpp"
 	#include "taw_vd\CfgFunctions.hpp"
 	#include "vcom\cfgFunctions.hpp"
+	#include "VASS\CfgFunctions.hpp"
 };
 
 //////////////////////////
@@ -52,6 +53,8 @@ class CfgFunctions
 #include "R3F_LOG\desc_include.h"
 #include "includes\remoteExec.hpp"
 #include "includes\operative_menu.hpp"
+
+#include "VASS\gui\cfgGUI.hpp"
 
 //////////////////////////////////////
 // MODERN or WW2 or VIETNAM or SCIFI
