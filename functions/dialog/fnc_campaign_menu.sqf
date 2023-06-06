@@ -10,7 +10,7 @@
   index_max_radius_750 = lbAdd [2100, "750m"];
   index_max_radius_500 = lbAdd [2100, "500m"];
   index_max_radius_250 = lbAdd [2100, "250m"];
-  lbSetCurSel [2100, index_max_radius_500];
+  lbSetCurSel [2100, index_max_radius_1750];
 
   // MIN RADIUS
   index_min_radius_1750 = lbAdd [2101, "1750m"];
@@ -22,7 +22,7 @@
   index_min_radius_350 = lbAdd [2101, "350m"];
   index_min_radius_250 = lbAdd [2101, "250m"];
   index_min_radius_100 = lbAdd [2101, "100m"];
-  lbSetCurSel [2101, index_min_radius_250];
+  lbSetCurSel [2101, index_min_radius_1500];
 
 // AMOUNT ENEMY ZONES
 index_amount_zones_15 = lbAdd [2102, localize "STR_DUWS_X_jooz8g8q"];
@@ -36,7 +36,7 @@ index_amount_zones_4 = lbAdd [2102, "4"];
 index_amount_zones_3 = lbAdd [2102, "3"];
 index_amount_zones_2 = lbAdd [2102, "2"];
 index_amount_zones_1 = lbAdd [2102, "1"];
-lbSetCurSel [2102, index_amount_zones_4];
+lbSetCurSel [2102, index_amount_zones_1];
 
 // MAX DISTANCE FROM HQ
 index_max_dist_hq_20 = lbAdd [2103, "2.0 km"];
@@ -51,7 +51,7 @@ index_max_dist_hq_125 = lbAdd [2103, "12.5 km"];
 index_max_dist_hq_150 = lbAdd [2103, "15 km"];
 index_max_dist_hq_175 = lbAdd [2103, "17.5 km"];
 index_max_dist_hq_200 = lbAdd [2103, "20 km"];
-lbSetCurSel [2103, index_max_dist_hq_60];
+lbSetCurSel [2103, index_max_dist_hq_100];
 
 // MORE URBAN
 index_more_urban_yes = lbAdd [2105, localize "STR_DUWS_X_vk37aebo"];
@@ -74,7 +74,7 @@ index_cp_reward_multiplier_half = lbAdd [2106, "0.5"];
 index_cp_reward_multiplier_one = lbAdd [2106, "1"];
 index_cp_reward_multiplier_two = lbAdd [2106, "2"];
 index_cp_reward_multiplier_five = lbAdd [2106, "5"];
-lbSetCurSel [2106, index_cp_reward_multiplier_one];
+lbSetCurSel [2106, index_cp_reward_multiplier_five];
 
 //CP Death Penalty
 index_cp_death_penalty_zero = lbAdd [2107, "0"];
@@ -88,7 +88,7 @@ index_cp_death_penalty_seven = lbAdd [2107, "7"];
 index_cp_death_penalty_eight = lbAdd [2107, "8"];
 index_cp_death_penalty_nine = lbAdd [2107, "9"];
 index_cp_death_penalty_ten = lbAdd [2107, "10"];
-lbSetCurSel [2107, index_cp_death_penalty_zero];
+lbSetCurSel [2107, index_cp_death_penalty_ten];
 
 // BLUFOR AP
 index_blufor_ap_0 = lbAdd [2108, "0"];
@@ -108,7 +108,7 @@ index_opfor_ap_80 = lbAdd [2109, "80"];
 index_opfor_ap_110 = lbAdd [2109, localize "STR_DUWS_X_57jjx7d6"];
 index_opfor_ap_170 = lbAdd [2109, "170"];
 index_opfor_ap_200 = lbAdd [2109, localize "STR_DUWS_X_rf9c6kt2"];
-lbSetCurSel [2109, index_opfor_ap_50];
+lbSetCurSel [2109, index_opfor_ap_200];
 
 // AI BLU SKILL
 index_blu_skill_elite = lbAdd [2110, localize "STR_DUWS_X_7ovwb13n"];
@@ -116,7 +116,7 @@ index_blu_skill_commando = lbAdd [2110, localize "STR_DUWS_X_i9ql9ndj"];
 index_blu_skill_veteran = lbAdd [2110, localize "STR_DUWS_X_7szkelef"];
 index_blu_skill_trained = lbAdd [2110, localize "STR_DUWS_X_njgzfxj4"];
 index_blu_skill_rookie = lbAdd [2110, localize "STR_DUWS_X_hjz2qz8j"];
-lbSetCurSel [2110, index_blu_skill_elite];
+lbSetCurSel [2110, index_blu_skill_rookie];
 
 // AI OPF SKILL
 index_op_skill_elite = lbAdd [2111, localize "STR_DUWS_X_7ovwb13n"];
@@ -138,7 +138,7 @@ lbSetCurSel [2112, index_opfor_AT_yes_yes];
 index_enemyunit_multiplier_1 = lbAdd [2113, "*1"];
 index_enemyunit_multiplier_2 = lbAdd [2113, "*2"];
 index_enemyunit_multiplier_3 = lbAdd [2113, "*3"];
-lbSetCurSel [2113, index_enemyunit_multiplier_1];
+lbSetCurSel [2113, index_enemyunit_multiplier_2];
 
 
 

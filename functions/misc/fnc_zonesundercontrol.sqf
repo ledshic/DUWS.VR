@@ -6,9 +6,9 @@ while {_undercontrol} do {
     sleep 1800;
     waitUntil {sleep 20;zoneundercontrolblu > 0}; // check if there is still at least 1 zone under control
 
-	["CPzonehold",[(zoneundercontrolblu*3),zoneundercontrolblu]] remoteExec ['BIS_fnc_showNotification', [0,-2] select isDedicated,false];
+	["CPzonehold",[(zoneundercontrolblu*3*cp_reward_multiplier),zoneundercontrolblu]] remoteExec ['BIS_fnc_showNotification', [0,-2] select isDedicated,false];
 
-    commandpointsblu1 = commandpointsblu1 + (zoneundercontrolblu*3);
+    commandpointsblu1 = commandpointsblu1 + (zoneundercontrolblu*3*cp_reward_multiplier);
     publicVariable "commandpointsblu1";
     ctrlSetText [1000, format["%1",commandpointsblu1]];
 };
